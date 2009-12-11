@@ -1,0 +1,66 @@
+/* Filename: type.css
+ * Description: these typefaces are based on the NCSU web guidelines
+ * URL: http://www.ncsu.edu/brand/web/web-guideline/
+ */
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		1.0em/1.2em Georgia, "Times New Roman", serif;
+Headers:		1.5em/1.3em Helvetica, Verdana, Arial, sans-serif;
+Input, textarea:	1.1em Helvetica, Verdana, Arial, sans-serif;
+Sidebar heading:	1.5em Helvetica, Verdana, Arial, sans-serif;
+
+Notes:	decreasing heading by 0.1em with every subsequent heading level
+-------------------------------------------------------------------*/
+
+body {
+	font:1.0em/1.2em Georgia, "Times New Roman", serif;
+}
+
+cite, em, i {
+	font-style:italic;
+}
+
+b, strong {
+	font-weight:bold;
+}
+
+code, pre {
+	font-family:monospace;
+}
+
+div#header h1 {
+	font:1.9em/2.1em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}
+
+h1 {                 
+	font:1.5em/1.7em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    
+                     
+h2 {                 
+	font:1.4em/1.6em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    
+                     
+h3 {                 
+	font:1.3em/1.5em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    
+                     
+h4 {                 
+	font:1.2em/1.4em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    
+                     
+h5 {                 
+	font:1.0em/1.3em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    
+                     
+h6 {                 
+	font:0.9em/1.2em Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+}                    

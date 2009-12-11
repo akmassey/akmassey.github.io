@@ -1,0 +1,11 @@
+/* Filename: master.css
+ * Description: used to breakup the structure of the other css files
+ * Author: Aaron Massey
+ */
+  
+@import url(reset.css);  
+@import url(type.css); 
+@import url(structure.css);
+@import url(colors.css); 
+/*@import url(theme.css); */
+/*@import "debugging.css"; */

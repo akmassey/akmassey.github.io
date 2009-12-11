@@ -1,0 +1,50 @@
+/* Filename: structure.css
+ * Description: basic two-column fluid layout with a sidebar to the right
+ * Author: Aaron Massey
+ */
+
+div#wrapper {
+	/* This is the background. */
+}
+
+div#container {
+	margin:30px auto;
+	width:85%;
+}
+
+div#header {
+	width:100%;
+	padding:30px 0px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+div#main {
+	float:right;
+	width:75%;
+	margin:0px 30px 30px 30px;
+}
+
+div#main p {
+	padding:0 0 1em 0;
+}
+
+div#sidebar {
+	width:20%;
+	margin-right:70%;
+	margin-left:30px;
+}
+
+div#footer {
+	clear:both;
+	padding:20px 30px 30px 30px;
+}
+
+div#contact {
+	padding:0 0 30px 0;
+	text-align:center;
+}
+
+div#feed {
+	text-align:center;
+}

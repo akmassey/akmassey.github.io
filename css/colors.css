@@ -1,0 +1,108 @@
+/* Filename: colors.css
+ * Description: these colors are based on the NCSU web guidelines
+ * URL: http://www.ncsu.edu/brand/web/web-guideline/
+ */
+
+/*------------------------------------------------------------------ 
+# [Color codes] 
+ 
+# Primary Colors:
+# Black (text): #000000 
+# Dark Pastel Red (links): #8F3F3F 
+# Light Pastel Red (visited links): #AB6161
+# White (background): #FFFFFF 
+# Dark Pastel Blue (headlines): #2C475C
+
+# Reds
+Dark Pastel: 		#8F3F3F 
+Dark Pale Pastel: 	#7D4040 
+Full Pastel: 		#762727 
+.primary-4 { background-color: #AB5757 }
+.primary-5 { background-color: #AB6161 }
+
+# Yellows
+.secondary-a-1 { background-color: #8F6D3F }
+.secondary-a-2 { background-color: #7D6340 }
+.secondary-a-3 { background-color: #765427 }
+.secondary-a-4 { background-color: #AB8757 }
+.secondary-a-5 { background-color: #AB8B61 }
+
+# Blues
+.secondary-b-1 { background-color: #2C475C }
+.secondary-b-2 { background-color: #2C4050 }
+.secondary-b-3 { background-color: #1B374C }
+.secondary-b-4 { background-color: #486A85 }
+.secondary-b-5 { background-color: #4F6D85 }
+
+Greens
+.complement-1 { background-color: #327232 }
+.complement-2 { background-color: #336433 }
+.complement-3 { background-color: #1F5E1F }
+.complement-4 { background-color: #4C954C }
+.complement-5 { background-color: #559555 }
+
+# Secondary Colors:
+# Dark Grey: #383838
+# Grey: #666666
+# Light Grey: #CCCCCC
+# Off-White: #E1E1E1
+# Dull Dark Brown: #5C5541
+# Green: #666633
+# Blue: #556677
+# Red: #A20000
+
+# Support Colors:
+# Dull Brown: #A79574
+# Dull Light Brown: #C5BD9D
+# Dull Off-White: #E5E1D0
+# Dark Pastel Green: #778855
+# Pastel Green: #99AA77
+# Light Pastel Green: #CCDDAA
+# Light Blue: #67849C
+# Yellow: #CC9900
+# */
+
+body {
+	background-color: #CCCCCC;
+}
+
+a {
+	text-decoration:none;
+}
+a:link {
+	color:#1F5E1F;
+}
+a:visited, del a:link {
+	color:#762727;
+}
+a:hover {
+	text-decoration:underline;
+	color:#762727;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#2C475C;
+}
+
+div#wrapper {
+	background-color: #CCCCCC;
+}
+
+div#container {
+	border:4px solid #AB8B61; 
+	background-color:#FFFFFF;
+}
+
+div#header {
+	background-color:#AB8B61;
+	color:#765427;
+}
+
+div#header h1 {
+	color:#765427;
+}
+
+div#footer {
+	border-top:4px solid #AB8B61;
+	background-color:#AB8B61;
+}
