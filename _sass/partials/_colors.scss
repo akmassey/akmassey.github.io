@@ -1,0 +1,74 @@
+/* Filename: colors.scss
+ * Description: These are all the basic colors that I have collected and sort 
+ * of like as a part of various themes.
+ * Author: Aaron Massey
+ */
+
+// Red Wolf Theme #2
+$dk-grey: #383838;
+$grey: #666666;
+$lt-grey: #CCCCCC;
+
+$cream: #F2EBC9;
+
+$dk-red: #A60A27;
+$lt-red: lighten($dk-red, 40);
+
+$lt-pastel-green: #AEBF6F;
+$pastel-green: #7F8C51;
+$dk-pastel-green: #6E7349;
+
+// Red Wolf Theme
+$lt-green: #4F7336;
+$mid-green: #7FA646;
+$dk-green: #314022;
+$dkr-green: #2B4016;
+
+$base-white: #F2EBDF;
+
+$lt-brown: #A69580;
+$dk-brown: #594432;
+$alt-brown: #736049;
+
+// Blues based to compliment the alt-brown
+$a-blue: #539DBF;
+$b-blue: #496673;
+
+// Browns to compliment the alt-brown
+$a-brown: #BF9766;
+$b-brown: #BFA98D;
+
+$tpp-red: #be0009;
+$tpp-yellow: #fefec3;
+
+// AKM Colors
+$dark-green: #323B1F;
+$green: #778855;
+$light-green: #C1D49A;
+$dark-purple: #33193B;
+$light-purple: #7B5588;
+
+// Primary Colors:
+$black: #000000;  // text
+$red: #CC0000;  // links
+$white: #FFFFFF;  // background
+
+// Secondary Colors:
+$dark-grey: #383838;
+$grey: #666666;
+$light-grey: #CCCCCC;
+$off-white: #E1E1E1;
+$dull-dark-brown: #5C5541;
+$alt-green: #666633;
+$alt-blue: #556677;
+$alt-red: #A20000;
+
+// Support Colors:
+$dull-brown: #A79574;
+$dull-light-brown: #C5BD9D;
+$dull-off-white: #E5E1D0;
+$dark-pastel-green: #778855;
+$pastel-green: #99AA77;
+$light-pastel-green: #CCDDAA;
+$light-blue: #67849C;
+$yellow: #CC9900;

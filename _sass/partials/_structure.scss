@@ -1,0 +1,133 @@
+/* Filename: structure.scss
+ * Description: basic two-column fluid layout with a sidebar to the left
+ * Author: Aaron Massey
+ */
+
+//@import "fancy-buttons";
+@import "compass/typography/lists";
+@import "compass/typography/links";
+@import "mixins";
+
+/* Default Link information */
+a {
+  color: $link-text;
+  @include hover-link;
+}
+
+a.button, button, input.button {
+//  @include fancy-button-structure(18px, 12px, 3px);
+//  @include fancy-button-colors($button-color, $button-hover, $button-active); 
+}
+
+a.small-button, input.small-button {
+//  @include fancy-button-structure(12px, 3px, 1px);
+//  @include fancy-button-colors($button-color, $button-hover, $button-active); 
+}
+
+
+body.centered {
+  @include basic-fonts;
+  text-align: center;
+  
+  #header, #footer, #content {
+    @include pad;
+  }
+
+  #header {
+    text: {
+      align: center;
+    }
+
+    background-color: $header-bg-color;
+    
+    padding: {
+      top: 1.5em;
+    }
+
+    border: {
+      bottom: {
+        style: solid;
+        width: 4px;
+        color: $header-footer-border-color; 
+      } 
+    }
+    
+    #user_nav {
+      float:right;
+      margin-right: 1em;
+    }
+  } // #header
+  
+  #menubar { 
+    @include menubar;
+  }  // #menubar
+
+  #footer {
+    @include menubar;
+    background-color: $footer-bg-color;
+    border: {
+      top: {
+        style: solid;
+        width: 4px;
+        color: $header-footer-border-color; 
+      }
+    }
+  }
+
+  background-color: $body-bg-color;
+
+  #container {
+    padding-top: 15px;
+    padding-bottom: 45px;
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  #content {
+    text-align: left;
+    margin-top: 1.5em;
+    padding-left: 2em;
+  }
+}
+
+/* Tables */
+table {
+  border: {
+    style: solid;
+    width: 2px;
+    color: $table-border-color;
+  }
+}
+table tr.even {
+  background-color: $even-row-color;
+}
+table tr.odd {
+  background-color: $odd-row-color;
+}
+table th {
+  padding: 4px 6px;
+  background-color: $table-header-color;
+  font-weight: bold;
+  border-bottom: {
+    style: solid;
+    width: 2px;
+    color: $table-border-color;
+  }
+}
+table td {
+  padding: 4px 6px;
+}   
+
+
+/* Additional Classes */
+.hrlist {
+  @include simple_hr_list(10);
+}
+
+ul.horizontal {
+  @include no-bullets;
+  
+  li {
+    @include simple_hr_list(10);
+  }
+}

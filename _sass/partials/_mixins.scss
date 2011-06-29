@@ -1,0 +1,86 @@
+/* Filename: mixins.scss
+ * Description: all mixins used by other theme files
+ * Author: Aaron Massey
+ */
+
+@mixin pad {
+  padding: 10px;
+}
+
+@mixin basic-fonts {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Maven Pro', 'Lucida Grande', Lucida, Helvetica, sans_serif;
+    font-weight: bold;
+  }
+  
+  h1 { font-size: 1.5em; line-height: 1; margin-bottom: 0.50em; }
+  h2 { font-size: 1.4em; line-height: 1; margin-bottom: 0.75em; }
+  h3 { font-size: 1.3em; line-height: 1; margin-bottom: 1.00em; }
+  h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+  h5 { font-size: 1.1em; font-weight: bold; margin-bottom: 1.50em; }
+  h6 { font-size: 1em; line-height: 1; margin-bottom: 0.50em; }
+  
+  p, li, table {
+    font-family: 'Open Sans', Palatino, Georgia, sans_serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+  }
+  
+  pre, code {
+    font-family: Menlo, "Andale Mono", "Lucida Console", monospace;
+  }
+}
+
+@mixin horizontal_list($item_width: 2, $item_class: list_item, $link_class: list_link) {
+  .#{$item_class} {
+    &:last-child {
+      @include last; }
+    .#{$link_class} {
+      display: block;
+      width: 100%;
+      text-align: center; } } }
+
+@mixin simple_hr_list($padding) {
+  display: inline;
+  list-style-type: none;
+  padding-right: #{$padding}px;
+}
+
+@mixin coloredbox($border-color, $background-color) {
+  border: 2px solid $border-color;
+  background-color: $background-color;
+  padding: 10px;
+  @include border-radius(10px);
+}
+
+@mixin menubar {
+  ul, li {
+    font-family: 'Maven Pro', 'Lucida Grande', Lucida, Helvetica, sans_serif;
+    font-weight: bold;
+    font-size: 1em; 
+  }
+    
+  height:1.4em;
+  text-align: center;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+
+  background-color: $menubar-color;
+  
+  border: {
+    bottom: {
+      style: solid;
+      width: 4px;
+      color: $header-footer-border-color; 
+    } 
+  }
+  
+  a {
+    text-decoration:none;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+}

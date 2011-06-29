@@ -1,0 +1,70 @@
+/* Filename: wedding-theme.scss
+ * Description: This is a purple and green theme built and tested for
+ * the Scoggins-Massey wedding.
+ * Author: Aaron Massey
+ */
+
+@import "colors";
+
+$wedding-purple: #4B3457;
+$silver-white: #F8F8FF;
+
+// Body Colors
+$body-bg-color: $white;
+// $container-border-color: $black;
+// $container-bg-color: $off-white;
+// $content-bg-color: $off-white;
+$link-text: $wedding-purple;
+
+// Header Colors
+$header-bg-color: $white;
+$footer-bg-color: $silver-white;
+$menubar-color: $silver-white;
+$header-border-color: $wedding-purple;
+$header-footer-border-color: $header-border-color;
+
+// Button Colors
+$button-color: lighten($dark-green, 12);
+$button-hover: $link-text;
+$button-active: darken($link-text, 8);
+
+// Table Colors
+//$odd-row-color: darken($off-white, 8);
+$odd-row-color: lighten($light-purple, 40);
+$even-row-color: $off-white;
+$table-border-color: $dark-purple;
+$table-header-color: $odd-row-color; 
+
+
+// Blueprint Defaults
+$font_color: #333333 !default;
+$quiet_color: $font_color + #333333 !default;
+$loud_color: $font_color - #222222 !default;
+$header_color: $font_color - #111111 !default;
+$alt_text_color: #666666 !default;
+
+$link_color: $dark-purple !default;
+$link_hover_color: $light-purple !default;
+$link_focus_color: $link_hover_color !default;
+$link_active_color: $link_color + #cc0000 !default;
+$link_visited_color: $link_color - #333333 !default;
+
+$feedback_border_color: #dddddd !default;
+$success_color: #264409 !default;
+$success_bg_color: #e6efc2 !default;
+$success_border_color: #c6d880 !default;
+$notice_color: #514721 !default;
+$notice_bg_color: #fff6bf !default;
+$notice_border_color: #ffd324 !default;
+$error_color: #8a1f11 !default;
+$error_bg_color: #fbe3e4 !default;
+$error_border_color: #fbc2c4 !default;
+
+$highlight_color: yellow !default;
+$added_color: white !default;
+$added_bg_color: #006600 !default;
+$removed_color: white !default;
+$removed_bg_color: #990000 !default;
+
+$blueprint_table_header_color: #c3d9ff !default;
+$blueprint_table_stripe_color: #e5ecf9 !default;
