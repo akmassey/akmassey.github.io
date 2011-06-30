@@ -5,7 +5,11 @@ title: Scoggins-Massey Wedding Registry
 
 # The Wedding Registry
 
-A brief description of the charities we would like for people to
-contribute to.
+A link to, or an embed code of, our [Amazon.com Wedding Registry][Our
+Reigstry].
 
-A link to, or an embed code of, our Amazon Wedding Registry.
+[Poplar Forest]: http://poplarforest.org/support
+[The Gideons]: http://www.gideons.org/HowYouCanHelp/Give.aspx
+[Fellowship Raleigh]: http://fellowshipraleigh.org/pages/give.php
+[Our Registry]: http://www.amazon.com/gp/registry/wedding/11CB1Y6CLNDHK
+

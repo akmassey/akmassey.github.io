@@ -5,9 +5,14 @@ title: Scoggins-Massey Wedding Hotels
 
 # The Main Hotel
 
-A description, map, etc of the main hotel for our guests.
+Hampton Inn Raleigh Midtown
+1001 Wake Towne Drive
+Raleigh, NC 27609
+
+Room block listed under "Scoggins-Massey Wedding"
 
 # Other Area Hotels
 
-A description of alternatives in case someone doesn't want to stay at
-the Hampton Inn.
+Raleigh Marriott City Center
+500 Fayetteville St
+Raleigh, NC 27601
