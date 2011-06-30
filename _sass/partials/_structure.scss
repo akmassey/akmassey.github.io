@@ -128,3 +128,16 @@ ul.horizontal {
     @include simple_hr_list(10);
   }
 }
+
+ul {
+  list-style-type: square;
+  padding-left: 3em;
+}
+
+.update {
+  h2 {
+    font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 0.7em;
+  }
+}
