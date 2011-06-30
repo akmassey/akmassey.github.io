@@ -23,25 +23,12 @@ $menubar-color: $silver-white;
 $header-border-color: $wedding-purple;
 $header-footer-border-color: $header-border-color;
 
-// Button Colors
-$button-color: lighten($dark-green, 12);
-$button-hover: $link-text;
-$button-active: darken($link-text, 8);
-
 // Table Colors
 //$odd-row-color: darken($off-white, 8);
 $odd-row-color: lighten($light-purple, 40);
 $even-row-color: $off-white;
 $table-border-color: $dark-purple;
 $table-header-color: $odd-row-color; 
-
-
-// Blueprint Defaults
-$font_color: #333333 !default;
-$quiet_color: $font_color + #333333 !default;
-$loud_color: $font_color - #222222 !default;
-$header_color: $font_color - #111111 !default;
-$alt_text_color: #666666 !default;
 
 $link_color: $dark-purple !default;
 $link_hover_color: $light-purple !default;

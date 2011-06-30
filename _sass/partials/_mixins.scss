@@ -9,7 +9,7 @@
 
 @mixin basic-fonts {
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Maven Pro', 'Lucida Grande', Lucida, Helvetica, sans_serif;
+    font-family: 'Shadows Into Light', 'Lucida Grande', Lucida, Helvetica, sans_serif;
     font-weight: bold;
   }
   
@@ -56,7 +56,7 @@
 
 @mixin menubar {
   ul, li {
-    font-family: 'Maven Pro', 'Lucida Grande', Lucida, Helvetica, sans_serif;
+    font-family: 'Shadows Into Light', 'Lucida Grande', Lucida, Helvetica, sans_serif;
     font-weight: bold;
     font-size: 1em; 
   }

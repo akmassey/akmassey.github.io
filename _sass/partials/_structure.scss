@@ -34,14 +34,11 @@ body.centered {
   }
 
   #header {
-    text: {
-      align: center;
-    }
-
+    text-align: center;
     background-color: $header-bg-color;
-    
-    padding: {
-      top: 1.5em;
+    padding-top: 1.5em;
+    h1 { 
+      font-size: 3em;
     }
 
     border: {
