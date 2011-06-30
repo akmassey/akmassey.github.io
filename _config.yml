@@ -4,7 +4,9 @@ lsi:         false
 server_port: 4000
 pygments:    false
 markdown:    maruku
-permalink:   /:year-:month-:day/:title.html
+permalink:   /wedding/update/:year-:month-:day/:title.html
+
+exclude: CNAME, README, compass.rb
 
 maruku:
   use_tex:    false
