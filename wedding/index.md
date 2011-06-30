@@ -17,7 +17,7 @@ previous updates:
 <ul class="posts">
   {% for post in site.posts %}
     {% if post.category == 'wedding' %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="http://localhost:4000{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="http://akmassey.com{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
