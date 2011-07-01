@@ -141,3 +141,12 @@ ul {
     font-size: 0.7em;
   }
 }
+
+blockquote { 
+  padding-left: 3em;
+}
+
+// To ensure there's space after embedded maps or videos.
+iframe {
+  padding-bottom: 2em;
+}
