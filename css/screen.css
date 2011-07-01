@@ -117,3 +117,9 @@ ul { list-style-type: square; padding-left: 3em; }
 
 /* line 138, ../_sass/partials/_structure.scss */
 .update h2 { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-weight: normal; font-size: 0.7em; }
+
+/* line 145, ../_sass/partials/_structure.scss */
+blockquote { padding-left: 3em; }
+
+/* line 150, ../_sass/partials/_structure.scss */
+iframe { padding-bottom: 2em; }
