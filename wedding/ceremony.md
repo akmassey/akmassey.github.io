@@ -3,18 +3,18 @@ layout: wedding
 title: Scoggins-Massey Wedding Ceremony
 ---
 
+# Schedule
+
+* 11:00 am --- Ceremony at Fellowship Raleigh
+* 11:45 am --- Pre-reception at Fellowship Raleigh
+* 12:45 pm --- Guests drive to The Pit
+* 1:00 pm --- Reception at The Pit
+* 3:00 pm --- Reception ends
+
 # Directions 
 
 A list of directions for the ceremony location, including an embedded
 Google map of the route from the hotel to the ceremony site.  
-
-# Schedule
-
-11:00 am --- Ceremony begins at Fellowship Raleigh
-11:45 am --- Pre-reception at Fellowship Raleigh begins
-12:45 pm --- Guests begin the drive to The Pit
-1:00 pm --- Reception begins at The Pit
-3:00 pm --- Reception ends
 
 # About Fellowship Raleigh
 

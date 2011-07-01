@@ -5,7 +5,7 @@ title: Scoggins-Massey Wedding Registry
 
 # The Wedding Registry
 
-A link to, or an embed code of, our [Amazon.com Wedding Registry][Our
+A link to, or an embed code of, our [Amazon.com Wedding Registry][Our 
 Reigstry].
 
 [Poplar Forest]: http://poplarforest.org/support

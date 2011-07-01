@@ -107,4 +107,3 @@ began dating.
   Counting](http://en.wikipedia.org/wiki/19_Kids_and_Counting),
   have had 6 children and 2 grandchildren.
 
-[Ranatra Fusca]: http://en.wikipedia.org/wiki/Odyssey_of_the_Mind#Ranatra_Fusca_Creativity_Award
