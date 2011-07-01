@@ -7,7 +7,7 @@ layout: weddingfeed
     <title>The Scoggins-Massey Wedding</title>
     <description>A collection of updates from Aaron and Allison as they prepare to be married.</description>
     <link>http://akmassey.com/wedding</link>
-    {% for post in site.wedding_posts %}
+    {% for post in site.posts %}
       {% if post.category == 'wedding' %}
         <item>
           <title>{{ post.title }}</title>
