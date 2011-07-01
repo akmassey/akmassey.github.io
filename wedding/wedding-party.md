@@ -14,7 +14,7 @@ live in every suburb in the Dallas-Fort Worth area.
 Kristin --- Bridesmaid, friend.  Kristin is not only our pastor's wife,
 but also has been part of our small group for the past couple years.
 Mom to the second cutest kid ever.  And Jackson, their dog who we love,
-but likes digging up carpets and chewing door frames.  
+but likes digging up carpets and chewing door frames.
 
 Angie --- Bridesmaid, friend.  Angie and Allison became friends making
 coffee for Fellowship Raleigh Sunday mornings, even though neither were
@@ -49,14 +49,14 @@ as a roommate at some point in my academic career, so there's a good
 chance that Allison and I will move in with him and Melissa after I
 graduate from NCSU.  Nick's role in Group Stupid is to instantaneously
 generate statistics that are only accurate if Group Stupid chooses to
-ignore what they portend.  Nick is conquring the Pacific Northwest,
+ignore what they portend.  Nick is conquering the Pacific Northwest,
 starting with Olympia, Washington.
 
 Matt --- Groomsman, friend.  While we were at Purdue, Matt would
 regularly skip his database class to have lunch in the Union with me
 and some other friends.  Somehow, this did not affect his ability to get
 a job working with large amounts of data in databases.  After
-graduating, Matt began his long term reconiassance mission to inform the
+graduating, Matt began his long term reconnaissance mission to inform the
 'world' phase of our world domination plans.  Matt will take over the
 conquest of the Southeast from me after I graduate, starting with
 Atlanta, Georgia.

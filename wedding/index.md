@@ -5,7 +5,7 @@ title: The Scoggins-Massey Wedding
 
 # Welcome to our Wedding Website!
 
-Thanks for visiting!  We're happy to have you here.  Please feel free to 
+Thanks for visiting!  We're happy to have you here.
 
 # Updates
 

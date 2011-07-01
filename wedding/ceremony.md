@@ -14,7 +14,7 @@ title: Scoggins-Massey Wedding Ceremony
 # Directions 
 
 A list of directions for the ceremony location, including an embedded
-Google map of the route from the hotel to the ceremony site.  
+Google map of the route from the hotel to the ceremony site.
 
 # About Fellowship Raleigh
 

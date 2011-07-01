@@ -12,14 +12,14 @@ there going to public, home, and private schools.  As a teenager, I was
 heavily involved with my church, [Hill Country Bible
 Church](http://www.hcbc.com/), participating in missions both locally
 and abroad.  My private high school was teeny tiny, with a graduating
-class of nine people.  
+class of nine people.
 
 I attended [Texas A&M University](http://www.tamu.edu) and majored in
 History and English.  I am quite biased, but I think it is the greatest
 place to go to college ever.  I loved just about everything about A&M
 --- the professors, the classes, the people, and, of course, the
 football games.  We may not have won many games, but we had fun
-watching.  
+watching.
 
 I love cooking and baking, and have managed to avoid most major kitchen
 catastrophes thus far.  The greatest recipients of my creations have
@@ -73,7 +73,7 @@ or heard from again), so in her final year she posted "need a roommate"
 on a message board and nervously waited for a response.  Not too soon
 afterward, Lisa from Michigan emailed back saying she was starting grad
 school in the fall and needed a place to stay.  Both deeming one another
-sane, it was agreed that they would be roomies.  
+sane, it was agreed that they would be roomies.
 
 One night in October 2003, Lisa struck up a conversation online with an
 old high school friend, Aaron.  After some discussion, they realized
