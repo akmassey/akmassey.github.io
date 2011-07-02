@@ -5,6 +5,8 @@ title: The Scoggins-Massey Wedding
 
 # Welcome to our Wedding Website!
 
+![Aaron and Allison at Jeremy and Meredith Kushner's Wedding][kushner]
+
 Thanks for visiting!  We're happy to have you here.
 
 # Updates
@@ -21,3 +23,6 @@ previous updates:
     {% endif %}
   {% endfor %}
 </ul>
+
+
+[kushner]: /images/wedding/akm-acs-kushner-wedding.png

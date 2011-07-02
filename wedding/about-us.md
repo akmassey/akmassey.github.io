@@ -6,6 +6,8 @@ title: About Us
 # The Bride
 ## Posted by Allison
 
+<img class='portrait' src='/images/wedding/acs.png' />
+
 I was born in Plano, Texas ("Dallas" as Aaron would say).  My family and
 I moved around a little before we settled in the Austin area.  Grew up
 there going to public, home, and private schools.  As a teenager, I was
@@ -33,6 +35,8 @@ Peppermint Patty.   So yeah, that is me.
 
 # The Groom 
 ## Posted by Aaron
+
+<img class='portrait' src='/images/wedding/akm.png' />
 
 I was born in Ohio and raised in Noblesville, Indiana.  When I was in
 first grade, my teacher started an after school computer club where I
@@ -67,6 +71,8 @@ reading fiction it's mostly science fiction or fantasy.  I also enjoy
 Geocaching, but I don't get out as often as I would like.
 
 # How We Met
+
+<img class='portrait' src='/images/wedding/together.png' />
 
 Allison had lost all her college roommates to marriage (never to be seen
 or heard from again), so in her final year she posted "need a roommate"

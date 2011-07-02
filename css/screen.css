@@ -123,3 +123,6 @@ blockquote { padding-left: 3em; }
 
 /* line 150, ../_sass/partials/_structure.scss */
 iframe { padding-bottom: 2em; }
+
+/* line 154, ../_sass/partials/_structure.scss */
+img.portrait { float: left; margin-right: 1em; }
