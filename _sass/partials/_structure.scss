@@ -1,29 +1,18 @@
 /* Filename: structure.scss
- * Description: basic two-column fluid layout with a sidebar to the left
+ * Description: basic single column layout
  * Author: Aaron Massey
  */
 
-//@import "fancy-buttons";
 @import "compass/typography/lists";
 @import "compass/typography/links";
 @import "mixins";
+@import "disqus";
 
 /* Default Link information */
 a {
   color: $link-text;
   @include hover-link;
 }
-
-a.button, button, input.button {
-//  @include fancy-button-structure(18px, 12px, 3px);
-//  @include fancy-button-colors($button-color, $button-hover, $button-active); 
-}
-
-a.small-button, input.small-button {
-//  @include fancy-button-structure(12px, 3px, 1px);
-//  @include fancy-button-colors($button-color, $button-hover, $button-active); 
-}
-
 
 body.centered {
   @include basic-fonts;
@@ -154,4 +143,8 @@ iframe {
 img.portrait {
   float: left;
   margin-right: 1em;
+}
+
+img.full {
+  margin-bottom: 1em;
 }

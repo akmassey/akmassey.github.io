@@ -1,0 +1,117 @@
+/* Filename: _disqus.scss
+ * Description: Customizations for Disqus comments.  Please checkout this
+ * post: http://onbloggingwell.com/how-to-customize-disqus-comments/
+ * Author: Aaron Massey
+ */
+
+@import "colors";
+
+// Disqus Comment Header
+#dsq-content #dsq-comments .dsq-comment-header {
+  font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; 
+  font-size: 1.0em;
+  line-height: 1.3em;
+  margin-left: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+// Disqus Body Comments
+#dsq-content #dsq-comments .dsq-comment-body {
+  padding: 0.571em 0.786em;
+  background: $body-bg-color;
+  min-height:70px;
+  font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; 
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+#dsq-content #dsq-comments .dsq-comment {
+  margin-bottom: 25px; /* Space between two comments */
+}
+
+// Imported from another CSS File
+/* Added by ack! from http://wiki.disqus.net/CustomCSS */
+
+/* Everything Disqus on your page is contained within this. */
+#disqus_thread {
+  h1, h2, h3, h4, h5, h6, a, p {
+    font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; 
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+}
+
+/*The comments.*/
+.dsq-comment-message {
+  font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; 
+  font-size: 1.0em;
+  line-height: 1.3em;
+}
+    
+/*The box where a post is typed into.*/
+textarea {
+  }
+
+texarea:after {
+  }
+
+/*The entire comment thread list.*/
+#dsq-comments {}
+
+/*A single comment in the thread.*/
+.dsq-comment {
+  margin-botom: 15px;
+}
+
+/*The avatar image for the registered.*/
+.dsq-header-avatar img {}
+
+/*The message body of a single comment post.*/
+#dsq-content #dsq-comments .dsq-comment-body { } 
+
+/*The footer contains the link to "reply."*/
+.dsq-comment-footer {}
+
+/* The form elements (Name, Email, Website). */
+input.form-text {
+  font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; 
+  font-size: 1.0em;
+  line-height: 1.3em;
+}
+
+/* The submit button "Post". */
+input.submit {
+  background-color: #ffffff;
+}
+
+/* The main wrapper for the comment system. */
+#dsq-content {
+}
+
+/* The toggle button for the thread options. */
+#dsq-options-toggle {
+  /* display: none; */
+}
+
+/* The links within the thread Options */
+#dsq-extra-links {
+  /* display: none; */
+}
+
+/* The comment rating arrows for posts. */
+.dsq-comment-rate {
+}
+
+/* This is the meta information about the post (time stamp and points). */
+.dsq-header-meta {
+}
+
+/* The message body of a single comment post. */
+.dsq-comment-body {
+}
+
+/* This contains and determines the style for the pagination links. */
+#dsq-pagination {
+}
+
