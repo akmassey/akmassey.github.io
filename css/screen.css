@@ -1,40 +1,90 @@
-/* line 17, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
-/* line 20, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body { line-height: 1; }
 
-/* line 22, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul { list-style: none; }
 
-/* line 24, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 26, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
 
-/* line 28, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote { quotes: none; }
-/* line 101, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
 
-/* line 30, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img { border: none; }
 
-/* line 115, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 115, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
 /* Filename: wedding-theme.scss Description: This is a purple and green theme built and tested for the Scoggins-Massey wedding. Author: Aaron Massey */
 /* Filename: colors.scss Description: These are all the basic colors that I have collected and sort  of like as a part of various themes. Author: Aaron Massey */
-/* Filename: structure.scss Description: basic two-column fluid layout with a sidebar to the left Author: Aaron Massey */
+/* Filename: structure.scss Description: basic single column layout Author: Aaron Massey */
 /* Filename: mixins.scss Description: all mixins used by other theme files Author: Aaron Massey */
+/* Filename: _disqus.scss Description: Customizations for Disqus comments.  Please checkout this post: http://onbloggingwell.com/how-to-customize-disqus-comments/ Author: Aaron Massey */
+/* Filename: colors.scss Description: These are all the basic colors that I have collected and sort  of like as a part of various themes. Author: Aaron Massey */
+/* line 10, ../_sass/partials/_disqus.scss */
+#dsq-content #dsq-comments .dsq-comment-header { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-size: 1.0em; line-height: 1.3em; margin-left: 30px; margin-top: 0px; padding-top: 0px; }
+
+/* line 20, ../_sass/partials/_disqus.scss */
+#dsq-content #dsq-comments .dsq-comment-body { padding: 0.571em 0.786em; background: white; min-height: 70px; font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-size: 0.8em; line-height: 1em; }
+
+/* line 29, ../_sass/partials/_disqus.scss */
+#dsq-content #dsq-comments .dsq-comment { margin-bottom: 25px; /* Space between two comments */ }
+
+/* Added by ack! from http://wiki.disqus.net/CustomCSS */
+/* Everything Disqus on your page is contained within this. */
+/* line 38, ../_sass/partials/_disqus.scss */
+#disqus_thread h1, #disqus_thread h2, #disqus_thread h3, #disqus_thread h4, #disqus_thread h5, #disqus_thread h6, #disqus_thread a, #disqus_thread p { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-size: 1em; line-height: 1.3em; }
+
+/*The comments.*/
+/* line 46, ../_sass/partials/_disqus.scss */
+.dsq-comment-message { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-size: 1.0em; line-height: 1.3em; }
+
+/*The box where a post is typed into.*/
+/*The entire comment thread list.*/
+/*A single comment in the thread.*/
+/* line 63, ../_sass/partials/_disqus.scss */
+.dsq-comment { margin-botom: 15px; }
+
+/*The avatar image for the registered.*/
+/*The message body of a single comment post.*/
+/*The footer contains the link to "reply."*/
+/* The form elements (Name, Email, Website). */
+/* line 77, ../_sass/partials/_disqus.scss */
+input.form-text { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-size: 1.0em; line-height: 1.3em; }
+
+/* The submit button "Post". */
+/* line 84, ../_sass/partials/_disqus.scss */
+input.submit { background-color: #ffffff; }
+
+/* The main wrapper for the comment system. */
+/* The toggle button for the thread options. */
+/* line 93, ../_sass/partials/_disqus.scss */
+#dsq-options-toggle { /* display: none; */ }
+
+/* The links within the thread Options */
+/* line 98, ../_sass/partials/_disqus.scss */
+#dsq-extra-links { /* display: none; */ }
+
+/* The comment rating arrows for posts. */
+/* This is the meta information about the post (time stamp and points). */
+/* The message body of a single comment post. */
+/* This contains and determines the style for the pagination links. */
 /* Default Link information */
 /* line 12, ../_sass/partials/_structure.scss */
 a { color: #4b3457; text-decoration: none; }
-/* line 4, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+/* line 4, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
 a:hover { text-decoration: underline; }
 
-/* line 28, ../_sass/partials/_structure.scss */
+/* line 17, ../_sass/partials/_structure.scss */
 body.centered { text-align: center; background-color: white; }
 /* line 11, ../_sass/partials/_mixins.scss */
 body.centered h1, body.centered h2, body.centered h3, body.centered h4, body.centered h5, body.centered h6 { font-family: 'Shadows Into Light', 'Lucida Grande', Lucida, Helvetica, sans_serif; font-weight: bold; }
@@ -56,15 +106,15 @@ body.centered p, body.centered li, body.centered table { font-family: 'Open Sans
 body.centered a { font-weight: bold; }
 /* line 39, ../_sass/partials/_mixins.scss */
 body.centered pre, body.centered code { font-family: Menlo, "Andale Mono", "Lucida Console", monospace; }
-/* line 32, ../_sass/partials/_structure.scss */
+/* line 21, ../_sass/partials/_structure.scss */
 body.centered #header, body.centered #footer, body.centered #content { padding: 10px; }
-/* line 36, ../_sass/partials/_structure.scss */
+/* line 25, ../_sass/partials/_structure.scss */
 body.centered #header { text-align: center; background-color: white; padding-top: 1.5em; border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: #4b3457; }
-/* line 40, ../_sass/partials/_structure.scss */
+/* line 29, ../_sass/partials/_structure.scss */
 body.centered #header h1 { font-size: 3em; }
-/* line 52, ../_sass/partials/_structure.scss */
+/* line 41, ../_sass/partials/_structure.scss */
 body.centered #header #user_nav { float: right; margin-right: 1em; }
-/* line 58, ../_sass/partials/_structure.scss */
+/* line 47, ../_sass/partials/_structure.scss */
 body.centered #menubar { height: 1.4em; text-align: center; padding-top: 0.4em; padding-bottom: 0.4em; background-color: #f8f8ff; border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: #4b3457; }
 /* line 67, ../_sass/partials/_mixins.scss */
 body.centered #menubar ul, body.centered #menubar li { font-family: 'Shadows Into Light', 'Lucida Grande', Lucida, Helvetica, sans_serif; font-weight: bold; font-size: 1em; }
@@ -72,7 +122,7 @@ body.centered #menubar ul, body.centered #menubar li { font-family: 'Shadows Int
 body.centered #menubar a { text-decoration: none; font-style: normal; }
 /* line 93, ../_sass/partials/_mixins.scss */
 body.centered #menubar a:hover { text-decoration: underline; font-style: normal; }
-/* line 62, ../_sass/partials/_structure.scss */
+/* line 51, ../_sass/partials/_structure.scss */
 body.centered #footer { height: 1.4em; text-align: center; padding-top: 0.4em; padding-bottom: 0.4em; background-color: #f8f8ff; border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: #4b3457; background-color: #f8f8ff; border-top-style: solid; border-top-width: 4px; border-top-color: #4b3457; }
 /* line 67, ../_sass/partials/_mixins.scss */
 body.centered #footer ul, body.centered #footer li { font-family: 'Shadows Into Light', 'Lucida Grande', Lucida, Helvetica, sans_serif; font-weight: bold; font-size: 1em; }
@@ -80,49 +130,52 @@ body.centered #footer ul, body.centered #footer li { font-family: 'Shadows Into 
 body.centered #footer a { text-decoration: none; font-style: normal; }
 /* line 93, ../_sass/partials/_mixins.scss */
 body.centered #footer a:hover { text-decoration: underline; font-style: normal; }
-/* line 76, ../_sass/partials/_structure.scss */
+/* line 65, ../_sass/partials/_structure.scss */
 body.centered #container { padding-top: 15px; padding-bottom: 45px; width: 750px; margin: 0 auto; }
-/* line 83, ../_sass/partials/_structure.scss */
+/* line 72, ../_sass/partials/_structure.scss */
 body.centered #content { text-align: left; margin-top: 1.5em; padding-left: 2em; }
 
 /* Tables */
-/* line 91, ../_sass/partials/_structure.scss */
+/* line 80, ../_sass/partials/_structure.scss */
 table { border-style: solid; border-width: 2px; border-color: #33193b; }
 
-/* line 98, ../_sass/partials/_structure.scss */
+/* line 87, ../_sass/partials/_structure.scss */
 table tr.even { background-color: #e1e1e1; }
 
-/* line 101, ../_sass/partials/_structure.scss */
+/* line 90, ../_sass/partials/_structure.scss */
 table tr.odd { background-color: #d9cbde; }
 
-/* line 104, ../_sass/partials/_structure.scss */
+/* line 93, ../_sass/partials/_structure.scss */
 table th { padding: 4px 6px; background-color: #d9cbde; font-weight: bold; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #33193b; }
 
-/* line 114, ../_sass/partials/_structure.scss */
+/* line 103, ../_sass/partials/_structure.scss */
 table td { padding: 4px 6px; }
 
 /* Additional Classes */
-/* line 120, ../_sass/partials/_structure.scss */
+/* line 109, ../_sass/partials/_structure.scss */
 .hrlist { display: inline; list-style-type: none; padding-right: 10px; }
 
-/* line 124, ../_sass/partials/_structure.scss */
+/* line 113, ../_sass/partials/_structure.scss */
 ul.horizontal { list-style: none; }
-/* line 11, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 ul.horizontal li { list-style-image: none; list-style-type: none; margin-left: 0px; }
-/* line 127, ../_sass/partials/_structure.scss */
+/* line 116, ../_sass/partials/_structure.scss */
 ul.horizontal li { display: inline; list-style-type: none; padding-right: 10px; }
 
-/* line 132, ../_sass/partials/_structure.scss */
+/* line 121, ../_sass/partials/_structure.scss */
 ul { list-style-type: square; padding-left: 3em; }
 
-/* line 138, ../_sass/partials/_structure.scss */
+/* line 127, ../_sass/partials/_structure.scss */
 .update h2 { font-family: 'Maven Pro', Helvetica, Tahoma, sans-serif; font-weight: normal; font-size: 0.7em; }
 
-/* line 145, ../_sass/partials/_structure.scss */
+/* line 134, ../_sass/partials/_structure.scss */
 blockquote { padding-left: 3em; }
 
-/* line 150, ../_sass/partials/_structure.scss */
+/* line 139, ../_sass/partials/_structure.scss */
 iframe { padding-bottom: 2em; }
 
-/* line 154, ../_sass/partials/_structure.scss */
+/* line 143, ../_sass/partials/_structure.scss */
 img.portrait { float: left; margin-right: 1em; }
+
+/* line 148, ../_sass/partials/_structure.scss */
+img.full { margin-bottom: 1em; }
